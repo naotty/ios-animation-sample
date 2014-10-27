@@ -2,14 +2,25 @@
 //  ViewController.h
 //  ios-animation-sample
 //
-//  Created by 照屋直人 on 2014/10/27.
+//  Created by tnaototo on 2014/10/27.
 //  Copyright (c) 2014年 tnaototo. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+//@interface rootViewController : UIViewController
+//
+//@end
 
+@interface ViewController : UIViewController <UIScrollViewDelegate>
+
+@property (weak, nonatomic) IBOutlet UILabel *myComment;
+
+@property (weak, nonatomic) IBOutlet UIScrollView *myScrollView;
+
+@property (weak, nonatomic) IBOutlet UIPageControl *myPageControl;
+
+- (IBAction)changedPage:(id)sender;
 
 @end
 

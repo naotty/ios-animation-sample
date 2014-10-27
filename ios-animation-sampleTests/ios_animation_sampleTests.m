@@ -2,7 +2,7 @@
 //  ios_animation_sampleTests.m
 //  ios-animation-sampleTests
 //
-//  Created by 照屋直人 on 2014/10/27.
+//  Created by tnaototo on 2014/10/27.
 //  Copyright (c) 2014年 tnaototo. All rights reserved.
 //
 
